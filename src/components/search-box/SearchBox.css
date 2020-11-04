@@ -19,3 +19,29 @@
    -ms-border-radius: 5px;
    -o-border-radius: 5px;
 }
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+   
+   font-size: 3rem;
+   cursor: pointer;
+}
+
+input[type="search"]::-ms-clear {
+   display: inline-block;
+   /* display: none; */
+   width: 100%;
+   height: 100%;
+}
+
+input[type="search"]::-ms-reveal {
+   display: inline-block;
+   /* display: none; */
+   width: 100%;
+   height: 100%;
+}
